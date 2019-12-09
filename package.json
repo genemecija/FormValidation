@@ -1,0 +1,25 @@
+{
+  "name": "FormValidation",
+  "version": "1.0.0",
+  "description": "Form validation practice",
+  "main": "webpack.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genemecija/FormValidation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/genemecija/FormValidation/issues"
+  },
+  "homepage": "https://github.com/genemecija/FormValidation#readme"
+}

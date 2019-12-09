@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Form Validation Hands-On</title>
+</head>
+<body>
+
+    <div id="main">
+        <div class="content">
+            <span id='title'>Form Validation Practice</span>
+            <form novalidate>
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email">
+                <span class="error" id="email" aria-live="polite"></span>
+                <label for="emailConfirm">Confirm Email:</label>
+                <input id="emailConfirm" type="email" name="emailConfirm">
+                <span class="error" id="emailConfirm" aria-live="polite"></span>
+                <label for="country">Country:</label>
+                <input id="country" type="text" name="country" pattern="[a-zA-Z]{2,56}">
+                <span class="error" id="country" aria-live="polite"></span>
+                <label for="zip">Zip Code:</label>
+                <input id="zip" type="text" name="zip" max="10" pattern="\d{4,10}[ -]?\d{0,7}">
+                <span class="error" id="zip" aria-live="polite"></span>
+                <label for="password">Password:</label>
+                <input id="password" type="password" name="password" pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$">
+                <span class="error" id="password" aria-live="polite"></span>
+                <label for="passwordConfirm">Confirm Password:</label>
+                <input id="passwordConfirm" type="password" name="passwordConfirm">
+                <span class="error" id="passwordConfirm" aria-live="polite"></span>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
