@@ -7,7 +7,7 @@
   "devDependencies": {
     "serialize-javascript": ">=3.1.0",
     "ssri": ">=8.0.1",
-    "webpack": "^5.28.0",
+    "webpack": "^5.76.0",
     "webpack-cli": "^3.3.12"
   },
   "scripts": {
